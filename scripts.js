@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Example of handling click event on the Ethereum trade button
     document.getElementById('tradeEthereum').addEventListener('click', function() {
-        window.open('https://app.uniswap.org/#/swap?inputCurrency=0x...'); // Replace with actual link
+        window.open('https://app.hexpool.party/'); // Replace with actual link
     });
 
     // Example of handling click event on the PulseChain trade button
