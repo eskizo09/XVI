@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Arial', sans-serif;
+    background: #111; /* Dark background */
+}
+
+.roadmap-container {
+    text-align: center;
+    color: white;
+}
+
+.roadmap-intro {
+    padding: 50px;
+    background: #222; /* Slightly lighter background for the intro */
+}
+
+.roadmap-milestone {
+    padding: 50px 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.milestone-content {
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.3s;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover effect for each milestone */
+.roadmap-milestone:hover {
+    background: #333; /* Darker background on hover */
+    transform: scale(1.05); /* Slightly scale up */
+}
+
+h1, h2 {
+    color: #39FF14; /* Neon green color */
+}
+
+p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* ... any additional styles ... */
